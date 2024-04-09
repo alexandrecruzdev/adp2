@@ -1,0 +1,19 @@
+/* Estilo para o efeito de pulsação */
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Aplicando o efeito de pulsação à classe whatsapp-button */
+  .whatsapp-button {
+    animation: pulse 1.5s infinite alternate; /* Alternando a animação infinitamente */
+  }
+  
+  

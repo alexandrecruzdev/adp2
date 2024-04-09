@@ -60,6 +60,9 @@ const Navbar = ({ user, setUser }) => {
             <button onClick={() => scrollToSection('servicos')} className="text-black hover:text-gray-300 focus:outline-none">Serviços</button>
           </li>
           <li className="block m-4 lg:mt-0">
+            <button onClick={() => scrollToSection('comentarios')} className="text-black hover:text-gray-300 focus:outline-none">Comentários</button>
+          </li>
+          <li className="block m-4 lg:mt-0">
             <Auth user={user} setUser={setUser} buttonText="Entre com o google"/>
           </li>
         </ul>

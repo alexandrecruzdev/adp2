@@ -1,3 +1,4 @@
+import './Auth.css'
 import { auth } from './config/firebase';
 import { GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from 'firebase/auth';
 import { useEffect } from 'react';
@@ -38,7 +39,7 @@ function Auth({ user, setUser,buttonText }) {
       </div>
     ) : (
       <div className="text-center">
-        <button onClick={signInWithGoogle} className="bg-blue-500 text-white px-3 py-1 rounded text-center">{buttonText}</button>
+        <button onClick={signInWithGoogle} className="bg-blue-500 text-white px-3 py-1 rounded text-center ">{buttonText}</button>
       </div>
     )}
   </>

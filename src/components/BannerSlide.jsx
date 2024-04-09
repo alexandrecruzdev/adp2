@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import Banner from '../images/banner.gif';
 
-
 // Importe os estilos do slick carousel
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -22,10 +21,10 @@ const BannerSlider = () => {
     <div>
       <Slider {...settings}>
         <div className="overflow-hidden">
-          <img src={Banner} alt="Slide 1" style={{ maxHeight: '600px', width: '100%' }} />
+          <img src={Banner} alt="Serviços de Mudança Residencial - Empresa ADP TRANSPORTES E MUDANÇAS" style={{ maxHeight: '600px', width: '100%' }} />
         </div>
         <div className="overflow-hidden">
-          <img src={Banner} alt="Slide 2" style={{ maxHeight: '600px', width: '100%' }} />
+          <img src={Banner} alt="Serviços de Mudança Interestadual - Empresa ADP TRANSPORTES E MUDANÇAS" style={{ maxHeight: '600px', width: '100%' }} />
         </div>
       </Slider>
     </div>

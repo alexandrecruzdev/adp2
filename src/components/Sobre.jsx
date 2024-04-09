@@ -16,6 +16,20 @@ const Sobre = () => {
       <p className="text-lg mb-4">
         Os serviços de entrega de obras de arte são realizados com caixas e embalagens sob medida, armazenagem climatizada e monitoramento. Surpreenda-se com os nossos serviços – faça uma cotação gratuita!
       </p>
+      
+      {/* Adicionando estrutura semântica para SEO */}
+      <div className="hidden" aria-hidden="true">
+        <h3>Serviços de Mudança e Transporte com a ADP Transportadora</h3>
+        <p>
+          A ADP Transportadora oferece serviços diferenciados de mudança e transporte residencial e comercial. Nossa equipe é composta por profissionais qualificados e dedicados, prontos para fornecer um serviço de alto padrão, adaptado às necessidades específicas de cada cliente.
+        </p>
+        <p>
+          Utilizamos materiais de embalagem de alta qualidade e tecnologia avançada para garantir a segurança e proteção dos itens durante o transporte. Além disso, oferecemos soluções personalizadas de coleta e entrega, tanto nacional quanto internacionalmente.
+        </p>
+        <p>
+          Com a ADP Transportadora, você pode ter certeza de que sua mudança será realizada com cuidado e profissionalismo. Entre em contato conosco hoje mesmo para uma cotação gratuita e surpreenda-se com a qualidade dos nossos serviços.
+        </p>
+      </div>
     </div>
   );
 };
