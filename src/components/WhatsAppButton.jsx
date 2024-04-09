@@ -7,9 +7,8 @@ const WhatsAppButton = () => {
   };
 
   return (
-    <div>
 <div
-      className="whatsapp-button" // Adicionando a classe para a animação de pulsação
+      className="whatsapp-button m-8" // Adicionando a classe para a animação de pulsação
       style={{
         position: 'fixed',
         bottom: '20px',
@@ -31,7 +30,6 @@ const WhatsAppButton = () => {
       title="Clique para entrar em contato via WhatsApp"
     >
       <i className="fab fa-whatsapp" style={{ fontSize: '44px' }}></i>
-    </div>
     </div>
     
   );
