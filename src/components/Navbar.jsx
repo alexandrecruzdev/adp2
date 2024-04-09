@@ -21,11 +21,11 @@ const Navbar = ({ user, setUser }) => {
       <div className="container mx-auto flex flex-wrap items-center justify-between relative">
         <div className="flex items-center relative z-10">
           <img
-            className="h-12 md:h-16 mr-2"
+            className="h-8 md:h-8 mr-2"
             src={AdpLogo}
             alt="Logo"
           />
-          <span className="text-gray-600 font-bold text-lg md:text-xl">ADP TRANSPORTES & MUDANÇAS</span>
+          <span className="text-gray-600 font-bold  ">ADP TRANSPORTES & MUDANÇAS</span>
         </div>
         
         <div className="block lg:hidden">

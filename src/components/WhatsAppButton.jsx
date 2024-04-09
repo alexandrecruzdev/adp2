@@ -8,7 +8,6 @@ const WhatsAppButton = () => {
 
   return (
     <div>
-      <h1>Peça já seu orçamento</h1>
 <div
       className="whatsapp-button" // Adicionando a classe para a animação de pulsação
       style={{
